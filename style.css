@@ -1,0 +1,26 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.box {
+  display: grid;
+  background: lightcoral;
+  box-shadow: 1px 1px 1px 1px gray;
+  align-content: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+.cell input {
+  width: 100%;
+}
